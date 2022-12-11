@@ -1,0 +1,45 @@
+{
+  "name": "@cra/host",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "5.0.1",
+    "formik": "2.1.4",
+    "styled-components": "^5.1.0",
+    "@resideo/blueprint-formik": "0.22.0",
+    "@resideo/blueprint-react": "^0.104.0",
+    "@resideo/blueprint-theme": "~0.17.0",
+    "@resideo/browserslist-config": "^0.0.2",
+    "@resideo/graphql-persisted-queries-client": "^0.0.4",
+    "@resideo/titan-torch-legaldocs-sdk": "^2.2.8",
+    "auth0-js": "^9.13.2",
+    "awesome-phonenumber": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/auth0-js": "9.13.1",
+    "typescript": "4.1.5",
+    "@types/react": "16.9.25",
+    "@types/react-dom": "16.9.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/styled-components": "^5.0.1",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node ./scripts/start.js",
+    "build": "node ./scripts/build.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      "extends @resideo/browserslist-config/production"
+    ],
+    "development": [
+      "extends @resideo/browserslist-config/development"
+    ]
+  }
+}
