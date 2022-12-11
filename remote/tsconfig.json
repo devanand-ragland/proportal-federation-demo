@@ -22,9 +22,11 @@
       "noImplicitAny": false
     },
     "include": [
-      "src"
+      "**/*.ts",
+      "**/*.tsx"
     ],
     "exclude": [
+      "**/*.svg",
       "node_modules"
     ]
   }

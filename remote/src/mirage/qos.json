@@ -1,0 +1,95 @@
+{
+  "data": {
+    "qos": [
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "wifiSignalStrength": 90,
+        "wifiQuality": "Good",
+        "bitRate": "13 mbp",
+        "noise": "0",
+        "description": "13 mbp",
+        "activity": "doorbell_ring",
+        "connectivityType": "Wi-Fi",
+        "line": "0.000",
+        "battery": "0.000",
+        "minSignal": "-92 dBm",
+        "maxSignal": "-41 dbm",
+        "receiverLevel": "-31 dbm"
+        
+        
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "wifiSignalStrength": 70,
+        "wifiQuality": "Bad",
+        "bitRate": "13 mbp",
+        "noise": "1",
+        "description": "Front doorbell ring",
+        "activity": "motion",
+        "connectivityType": "Wi-Fi",
+        "line": "0.000",
+        "battery": "0.000",
+        "minSignal": "-92 dBm",
+        "maxSignal": "-41 dbm",
+        "receiverLevel": "-51 dbm"
+
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "wifiSignalStrength": 87,
+        "wifiQuality": "Bad",
+        "bitRate": "13 mbp",
+        "noise": "2",
+        "description": "13 mbp",
+        "activity": "connected",
+        "connectivityType": "Wi-Fi",
+        "line": "0.000",
+        "battery": "0.000",
+        "minSignal": "-92 dBm",
+        "maxSignal": "-41 dbm",
+        "receiverLevel": "-48 dbm"
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "wifiSignalStrength": 70,
+        "wifiQuality": "Bad",
+        "bitRate": "13 mbp",
+        "noise": "1",
+        "description": "Front doorbell ring",
+        "activity": "disconnected",
+        "connectivityType": "Wi-Fi",
+        "line": "0.000",
+        "battery": "0.000",
+        "minSignal": "-92 dBm",
+        "maxSignal": "-41 dbm",
+        "receiverLevel": "-68 dbm"
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "wifiSignalStrength": 90,
+        "wifiQuality": "Bad",
+        "bitRate": "13 mbp",
+        "noise": "1",
+        "description": "Front doorbell ring",
+        "activity": "disconnected",
+        "connectivityType": "Wi-Fi",
+        "line": "0.000",
+        "battery": "0.000",
+        "minSignal": "-92 dBm",
+        "maxSignal": "-41 dbm",
+        "receiverLevel": "-47 dbm"
+
+        
+      }
+      
+    ]
+  }
+}

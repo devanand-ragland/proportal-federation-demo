@@ -1,0 +1,58 @@
+{
+  "data": {
+    "overviewInfo": {
+      "panelFamily": "Pro Series",
+        "panelModal": "PROA7PLUS",
+        "revision": "Rev 1",
+        "timeOnPanel": "11/12/2021 12:07:13 PM(CST)",
+        "batteryStatus": "Normal",
+        "powerStatus": "AC Connected",
+        "firmwareVersion": "03.592.63.0"
+    },
+    "panelInfo": {
+      "macAddress": "B82CA08E6FD0",
+        "modalName": "AI07",
+        "manufacturedData": "03/11/2020"
+        
+    },
+    "communicators": {
+      "panelStatus": "Normal",
+        "lastStatusCheckin": "11-3-2022 07:54:59AM",
+        "NextStatusCheckin": "14-3-2022 09:54:59AM"
+    },
+    
+    "otherPanels": [
+      {
+        "deviceId": 1234,
+        "deviceName": "LyricHome",
+        "securityStatus": "disarmed"
+       
+        
+      },
+      {
+        "deviceId": 1232,
+        "deviceName": "Garage",
+        "securityStatus": "disarmed"
+       
+        
+      },
+      {
+        "deviceId": 12324,
+        "deviceName": "Pool House",
+        "securityStatus": "disarmed"
+       
+        
+      },
+      {
+        "deviceId": 12324,
+        "deviceName": "Global Zones",
+        "securityStatus": "disarmed"
+       
+        
+      }
+    ]
+     
+    }
+  }
+
+       

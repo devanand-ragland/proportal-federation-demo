@@ -1,0 +1,20 @@
+{
+  "responseCode": 0,
+  "response": {
+      "deviceId": 1356404,
+      "deviceName": "jeswanth",
+      "deviceSerialNumber": 0,
+      "deviceSerialText": null,
+      "deviceClassID": 0,
+      "firmwareVersion": null,
+      "lastCheckIn": null,
+      "cameraType": null,
+      "signalStrength": 0,
+      "onlineStatus": "Online",
+      "ceId": 0,
+      "locationId": 0,
+      "accountId": 0,
+      "oldDeviceSerialText": null
+  },
+  "successMsg": ""
+}

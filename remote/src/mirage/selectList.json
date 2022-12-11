@@ -1,0 +1,11 @@
+{
+  "data": {
+    "deviceList": [
+     
+      { "key": "Front Doorbell", "value": "option1" },
+      { "key": "Back Camera", "value": "option2" },
+      { "key": "Communicator", "value": "option3" },
+      { "key": "Panel", "value": "option4" }
+    ]
+  }
+}

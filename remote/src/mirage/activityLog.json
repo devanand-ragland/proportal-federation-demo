@@ -1,0 +1,39 @@
+{
+  "data": {
+    "activityLog": [
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "description": "Doorbell pressed.",
+        "activity": "[ deviceName ] Doorbell Pressed"
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "description": "Camera has detected a motion activity and recoreded a clip {{Time}}.",
+        "activity": "[ deviceName] - [zoneName] Motion Detected"
+
+
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "description": "Camera has detected [ objectType ] and recorded a video clip {{Time}}.",
+        "activity": "[ deviceName ] - [zoneName] Object Detected"
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "description": "Camera has detected a sound event and recorded a clip.",
+        "activity": "[ deviceName ] Sound Detected"
+        
+      },
+      {
+        "receivedOn": "12-23-2016 11:04:00 AM",
+        "description": "Camera has detected a motion activity and recoreded a clip {{Time}}.",
+        "activity": "[ deviceName] - [zoneName] Motion Detected"
+      }
+      
+    ]
+  }
+}

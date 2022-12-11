@@ -1,7 +1,6 @@
-/* eslint-disable */
-import { DeviceCid, SignalStrength } from './commonInterfaces';
+import React from 'react';
 
-//disable typescript next line
+import { DeviceCid, SignalStrength } from './commonInterfaces';
 // @ts-ignore
 import BuiltInCam from '../../assets/unicornImages/uc_proseries.jpg';
 // @ts-ignore
@@ -36,7 +35,7 @@ import IPCAM_WO from '../../assets/unicornImages/UC_IPCAMWO.jpg';
 import BICAM_LYRICS from '../../assets/unicornImages/BICAM_LYRICS.png';
 // @ts-ignore
 import BICAM_PROA7PLUS from '../../assets/unicornImages/BICAM_PROA7PLUS.jpg';
-import React from 'react';
+
 
 export const convertToLocalDate: any = (date: any, dataType = 0) => {
   if (!date) {

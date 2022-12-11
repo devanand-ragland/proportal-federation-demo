@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box } from '@resideo/blueprint-react';
 
 const MainCell = styled.div`
   text-align: left;

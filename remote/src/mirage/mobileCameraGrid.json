@@ -1,0 +1,112 @@
+{
+  "data": {
+    "cameras": [
+      {
+        "deviceId": 1234,
+        "deviceName": "Main Door",
+        "deviceSKU": "Resideo VideoDoorbell",
+        "deviceSerialNumber": "00D02D123456",
+        "doorChime": {
+          "indoorDigitalDoorChime":"Enabled",
+          "chimeBox": "Enabled",
+          "outdoorDigitalDoorChime": "Enabled"
+        },
+        "motionDetection": {
+          "motionDetector": "Enabled",
+          "motionArea": "Enabled",
+          "motionDetectorLimit": "High"
+        },
+        "camera": {
+          "recordResolution": "1280 X 720",
+          "recordQuality": "Good",
+          "cameraAngle": "Enabled",
+          "nightVision": "CNV"
+        },
+        "sound": {
+          "speakerVolume": 8,
+          "microphone": "Enabled",
+          "sensitivity": "High",
+          "eventSound": "Enabled",
+          "micorphoneRecording": "Enabled"
+        },
+        "misc": {
+          "touchlessPressSensitivity": 8,
+          "touchlessPress": "Enabled",
+          "ringLightIntensity": "High"
+        }
+        
+      },
+      {
+        "deviceId": 1847,
+        "deviceName": "Front Door",
+        "deviceSKU": "Skybell VideoDoorbell",
+        "deviceSerialNumber": "00D02D123456",
+        "doorChime": {
+          "indoorDigitalDoorChime":"Enabled",
+          "chimeBox": "Enabled",
+          "outdoorDigitalDoorChime": "Enabled"
+        },
+        "motionDetection": {
+          "motionDetector": "Enabled",
+          "motionArea": "Enabled",
+          "motionDetectorLimit": "High"
+        },
+        "camera": {
+          "recordResolution": "1280 X 720",
+          "recordQuality": "Good",
+          "cameraAngle": "Enabled",
+          "nightVision": "CNV"
+        },
+        "sound": {
+          "speakerVolume": 8,
+          "microphone": "Enabled",
+          "sensitivity": "High",
+          "eventSound": "Enabled",
+          "micorphoneRecording": "Enabled"
+        },
+        "misc": {
+          "touchlessPressSensitivity": 8,
+          "touchlessPress": "Enabled",
+          "ringLightIntensity": "High"
+        }
+        
+      },
+      {
+        "deviceId": 1848,
+        "deviceName": "Hallway Cam",
+        "deviceSKU": "Panel Built-In Camera",
+        "deviceSerialNumber": "00D02F128956",
+        "doorChime": {
+          "indoorDigitalDoorChime":"Enabled",
+          "chimeBox": "Enabled",
+          "outdoorDigitalDoorChime": "Enabled"
+        },
+        "motionDetection": {
+          "motionDetector": "Enabled",
+          "motionArea": "Enabled",
+          "motionDetectorLimit": "High"
+        },
+        "camera": {
+          "recordResolution": "1280 X 720",
+          "recordQuality": "Good",
+          "cameraAngle": "Enabled",
+          "nightVision": "CNV"
+        },
+        "sound": {
+          "speakerVolume": 8,
+          "microphone": "Enabled",
+          "sensitivity": "High",
+          "eventSound": "Enabled",
+          "micorphoneRecording": "Enabled"
+        },
+        "misc": {
+          "touchlessPressSensitivity": 8,
+          "touchlessPress": "Enabled",
+          "ringLightIntensity": "High"
+        }
+        
+      }
+      
+    ]
+  }
+}

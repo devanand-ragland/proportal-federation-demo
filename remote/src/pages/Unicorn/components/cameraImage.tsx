@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box } from '@resideo/blueprint-react';
+
 
 const CameraImage = styled.img`
   width: 65px;

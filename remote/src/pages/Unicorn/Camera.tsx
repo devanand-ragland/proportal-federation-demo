@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next';
 import { Link as RouterLink } from 'react-router-dom';
 import { Titled } from 'react-titled';
 import styled from 'styled-components';
-import ApolloClient, { gql } from 'apollo-boost';
+
 import DataTable, { TableColumn, TableRow } from '../../shared/grid/index';
+import Api from "../../shared/services/Api";
 
 import {
   Box,
@@ -31,18 +32,6 @@ import {
 import MainCell from './components/maincell';
 import CameraImage from './components/cameraImage';
 
-const BorderBottomForm = styled(Flex)`
-  border-bottom: 1px solid ${({ theme }) => theme.colors.separator};
-  margin-bottom: ${({ theme }) => theme.space.medium};
-  margin-top: ${({ theme }) => theme.space.medium};
-`;
-
-const CompanyLink = styled(RouterLink)`
-  text-decoration: none;
-  color: ${({ theme }) => theme.colors.primary};
-  font-weight: bold;
-  margin-left: 0.75rem;
-`;
 
 const Camera = (): JSX.Element => {
   const { t } = useTranslation();
@@ -68,38 +57,31 @@ const Camera = (): JSX.Element => {
     },
   };
 
-  const query = `
-    query {
-      cameras(locationId: 527754) {
-        locationId
-        deviceId
-        deviceName
-        deviceSerialNumber
+  /* Get Grid Data */
+  const getGridData = async () => {
+    try {
+
+        const cameraData: any = await Api.getCameraGridJSON(
+          "527754"
+        );
+
+        if (cameraData.data) {
+
+        setGridData(cameraData.data);
+    
+      } else {
+        setGridData([]);
       }
+	  
+    } catch (err) {
+  
+      console.log(err);
     }
-  `;
+  };
 
-  const client = new ApolloClient({
-    uri: 'http://localhost:8080/graphql',
-  });
-
-  client
-    .query({
-      query: gql`
-        query {
-          cameras(locationId: 527754) {
-            locationId
-            deviceId
-            deviceName
-            deviceSerialNumber
-          }
-        }
-      `,
-    })
-    .then(result => {
-      setGridData(result.data.cameras);
-      console.log('DATA::: ' + JSON.stringify(result));
-    });
+  useEffect(() => {
+    getGridData();
+  }, []);
 
   const getImage = (deviceName: string, classId: number) => {
     try {

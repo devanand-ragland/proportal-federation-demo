@@ -1,0 +1,24 @@
+{
+  "data": {
+    "deviceInformation": {
+      "isStatusOnline": true,
+      "description": "lqrusgzmpd",
+      "modelNumber": "7554",
+      "firmware": "67.2.8",
+      "manufacturingDate": "2022-05-14T06:20:47.123303-04:00",
+      "deviceId": "RYJFVOTEKR",
+      "mac": "RYJFVOTEKR",
+      "installDate": "2022-07-25T06:20:47.1231759-04:00"
+    },
+    "connectivity": {
+      "signalStrength": "-40",
+      "signalQuality": "Good",
+      "ssid": "okxwnqfu",
+      "wirelessTxRate": "296",
+      "lastDoorbellMessageTimeStamp": "2022-07-21T06:23:13.5242663-04:00",
+      "lastVideoUploadTimeStamp": "2022-05-14T06:23:13.5241972-04:00",
+      "minRssi": -66,
+      "maxRssi": -17
+    }
+  }
+}
