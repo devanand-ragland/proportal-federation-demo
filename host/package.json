@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
+    "@reach/menu-button": "0.11.2",
+    "@rehooks/local-storage": "^2.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
@@ -17,7 +19,16 @@
     "@resideo/graphql-persisted-queries-client": "^0.0.4",
     "@resideo/titan-torch-legaldocs-sdk": "^2.2.8",
     "auth0-js": "^9.13.2",
-    "awesome-phonenumber": "^3.4.0"
+    "awesome-phonenumber": "^3.4.0",
+    "react-titled": "^1.0.1",
+    "msw": "^0.19.5",
+    "react-i18next": "11.8.13",
+    "storage-factory": "^0.1.0",
+    "toasted-notes": "^3.2.0",
+    "react-icons": "^4.3.1",
+    "history": "^4.9.0",
+    "i18next": "^19.4.0",
+    "use-match-media": "^1.0.4"
   },
   "devDependencies": {
     "@types/auth0-js": "9.13.1",

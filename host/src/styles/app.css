@@ -1,0 +1,45 @@
+/* ensure 100% height on body & root div */
+
+html,
+body,
+#root {
+  background: #ededed;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  --reach-menu-button: 1;
+}
+
+[data-reach-menu] {
+  display: block;
+  position: absolute;
+}
+
+[data-reach-menu-list] {
+  display: block;
+  white-space: nowrap;
+  border: 0;
+  background: #032a3c;
+  text-align: center;
+  box-shadow: -6px 5px 15px -3px rgba(0, 0, 0, 0.25);
+  outline: none;
+  padding: 1rem 0;
+}
+
+[data-reach-menu-item] {
+  cursor: pointer;
+  display: block;
+  color: #4cb5f5;
+  text-decoration: initial;
+  padding: 0.5rem 2rem;
+  letter-spacing: 1px;
+}
+
+[data-reach-menu-item][data-selected] {
+  outline: none;
+}
+
+[data-reach-menu-popover] {
+  min-width: 2.25rem;
+}
