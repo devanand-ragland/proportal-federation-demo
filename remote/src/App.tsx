@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import LocalButton from './Button';
+import Layout from "./gridLayout";
 
 const App = () => (
   <div>
-    <h1>Basic Host-Remote</h1>
-    <h2>Remote</h2>
-    <LocalButton />
+    <h1>Camera</h1>
+    <Layout />
   </div>
 );
 
